@@ -9,7 +9,12 @@ const person = {
 console.log(person.name); // Output: 'mahmudul'
 //  dot notation 
 const boyos =person.age
-console.log(boyos)
+console.log(boyos)//Output:23
+
+// bracket notation (property modde dash/gap thakle kaj korena)
+console.log(person['age']) //normal way
+const bura = person ['age'] 
+console.log(bura) 
 
 
 // another way 
